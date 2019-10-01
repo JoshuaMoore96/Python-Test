@@ -1,10 +1,12 @@
 import random
 
+print("Number guessing game!")
+
 randNum = random.randint(1, 100)
 guessed = False
 for i in range(10):
     if not guessed:
-        guess = int(input("Guess a number "))
+        guess = int(input("Guess a number >> "))
         if guess == randNum:
             print("You guessed it!")
             guessed = True
