@@ -19,7 +19,7 @@ if not guessed:
     print("The number was", randNum, "you lose!")
 
     #  this is a change I am making for the sake of a github test
-    #  Test branch
+    #  I am going to merge these changes.s
 
 
 
